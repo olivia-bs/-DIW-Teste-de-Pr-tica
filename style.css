@@ -1,60 +1,102 @@
 /* AZUL ESCURO - #1D3D59 
 BEGE - #F2E5BD 
-BRANCO -  
+BRANCO (bege claro) -  #f5f2e9
 LARANJA - #F28A2E 
 VERDE CLARO - #8CA653 
 VERDE ESCURO - #3E592A */
 
 /* Reset básico */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Serif', serif;
-  }
- 
-  
-  /* Início - TOPO */
-  .topo {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    list-style: none;
-    margin: 0;
-    padding: 0.5rem 2rem; 
-    background-color: #F2E5BD;
-    gap: 10vw;
-  }
-  
-  .topo img {
-    height: 7.5vh; 
-    width: auto;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav {
-    display: flex; 
-    gap: 1.5rem;
-  }
-  
-  .topo-itens {
-    list-style: none;
-    text-transform: uppercase;
-    font-weight: 900;
-  }
-  
-  .topo a {
-    text-decoration: none;
-    color: #1D3D59;
-    font-weight: bold;
-    transition: color 0.1s;
-    font-size: 1.1rem;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+}
 
-  .topo a:hover{
-    color: #F28A2E;
-    text-decoration: underline;
-  }
-  
- /* Fim- TOPO */
-  
+
+/* Início - TOPO */
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 2rem;
+  background: linear-gradient(to bottom, #F2E5BD 0%, #f5f2e9 100%);
+  margin-bottom: 0;
+  box-shadow: 0 4px 6px rgba(29, 61, 89, 0.3);
+}
+
+.topo img {
+  height: 7.5vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.topo-itens {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.topo a {
+  text-decoration: none;
+  color: #1D3D59;
+  font-weight: bold;
+  transition: color 0.2s;
+  font-size: 1.2rem;
+}
+
+.topo a:hover {
+  color: #F28A2E;
+  text-decoration: underline;
+}
+
+#login a{
+  color: #f5f2e9;
+  background-color: #1D3D59;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+#login a:hover {
+  background-color: #F28A2E;
+  text-decoration: underline;
+  color: #f5f2e9;
+}
+/* Fim - TOPO */
+
+/* Início - SOBRE */
+.sobre {
+  text-align: center;
+  background-color: #f5f2e9;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1rem 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre h3 {
+  color: #3E592A;
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.sobre p {
+  margin-top: 0;
+  color: #3E592A;
+  font-size: 1.4rem;
+}
+/* Fim - SOBRE */
+
+/* Início - QUERIDINHOS */
