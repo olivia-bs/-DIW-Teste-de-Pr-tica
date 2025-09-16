@@ -1,0 +1,60 @@
+/* AZUL ESCURO - #1D3D59 
+BEGE - #F2E5BD 
+BRANCO -  
+LARANJA - #F28A2E 
+VERDE CLARO - #8CA653 
+VERDE ESCURO - #3E592A */
+
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+  }
+ 
+  
+  /* Início - TOPO */
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 2rem; 
+    background-color: #F2E5BD;
+    gap: 10vw;
+  }
+  
+  .topo img {
+    height: 7.5vh; 
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex; 
+    gap: 1.5rem;
+  }
+  
+  .topo-itens {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .topo a {
+    text-decoration: none;
+    color: #1D3D59;
+    font-weight: bold;
+    transition: color 0.1s;
+    font-size: 1.1rem;
+  }
+
+  .topo a:hover{
+    color: #F28A2E;
+    text-decoration: underline;
+  }
+  
+ /* Fim- TOPO */
+  
